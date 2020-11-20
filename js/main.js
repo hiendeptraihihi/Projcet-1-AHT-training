@@ -56,4 +56,43 @@ $(document).ready(function () {
             $(this).parent().find('.item-header__content').toggleClass('d-block');
         });
     });
+    $('.list-slide').slick({
+        dots:false,
+        infinate: true,
+        rows: 2,
+        slidesToShow: 4,
+        responsive: [
+            {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 2           
+            }
+           },
+           {
+            breakpoint: 576,
+            settings: {
+               slidesToShow: 1        
+            }
+           }
+         ]            
+    });
+    $('.slide2').slick({
+        dots:false,
+        infinate: true,
+        slidesToShow: 4,
+        responsive: [
+            {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 2           
+            }
+           },
+           {
+            breakpoint: 576,
+            settings: {
+               slidesToShow: 1           
+            }
+           }
+         ]           
+    });
 });

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEDYPlus | Homepage</title>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet/less" href="css/style.less">
     <link rel="stylesheet" href="css/slide-guide.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -20,7 +22,7 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="slick/slick.min.js"></script>
 </head>
 <body>
     <!-- Wrapper -->
@@ -137,7 +139,7 @@
 
                     <!-- Menu Right -->
                     <div class="menu__right d-flex">
-                        <nav class="navbar navbar-expand-sm navbar-light">
+                        <nav class="navbar navbar-expand-lg navbar-light">
                             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -447,13 +449,9 @@
                         <div class="title-styling--background">products</div>
                         <div class="title-styling--interface">top selling</div>
                     </div>
-                    <div class="arrow-toggle">
-                        <i class="fas fa-chevron-left"></i>
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
                 </div>
-                <div class="row">
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12">
+                <div class="list-slide slide">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -468,7 +466,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -484,7 +482,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -500,7 +498,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -517,7 +515,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -533,7 +531,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -549,7 +547,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -565,7 +563,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -576,6 +574,37 @@
                                 <div class="item-title">Jarrow Formulas Methylcobalamin</div>
                                 <div class="item-price">
                                     <del class="old-price"></del>
+                                    <span class="new-price">$30.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-inner">
+                                <figure class="item-img">
+                                    <img src="img/product_1.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-title">Nature's Bounty Biotin 10000 MCG</div>
+                                <div class="item-price">
+                                    <span class="new-price">$30.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-inner">
+                                <figure class="item-img">
+                                    <img src="img/product_2.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-title">Best Colon Detox Formula Advanced Colon</div>
+                                <div class="item-price">
+                                    <del class="old-price">$35.00</del>
                                     <span class="new-price">$30.00</span>
                                 </div>
                             </div>
@@ -615,13 +644,9 @@
                         <div class="title-styling--background">arrivals</div>
                         <div class="title-styling--interface">new arrivals</div>
                     </div>
-                    <div class="arrow-toggle">
-                        <i class="fas fa-chevron-left"></i>
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
                 </div>
-                <div class="row">
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12 col-md-3 col-sm-6 col-xs-6 col-12">
+                <div class="slide2 slide">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -636,7 +661,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12 col-md-3 col-sm-6 col-xs-6 col-12">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -652,7 +677,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12 col-md-3 col-sm-6 col-xs-6 col-12">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -668,7 +693,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item col-lg-3 col-md-3 col-sm-6 col-xs-6 col-12">
+                    <div class="item">
                         <a href="#">
                             <div class="item-inner">
                                 <figure class="item-img">
@@ -680,6 +705,21 @@
                                    </div>
                                 <div class="item-price">
                                     <del class="old-price"></del>
+                                    <span class="new-price">$30.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-inner">
+                                <figure class="item-img">
+                                    <img src="img/product_1.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="item-content">
+                                <div class="item-title">Nature's Bounty Biotin 10000 MCG</div>
+                                <div class="item-price">
                                     <span class="new-price">$30.00</span>
                                 </div>
                             </div>
@@ -701,39 +741,43 @@
                 </div>
                 <div class="row">
                     <div class="news-item col-lg-4 col-md-4 col-xs-col-4 col-xs-12 col-12">
-                        <div class="news-item--inner">
-                            <figure class="news-item__img">
-                                <img src="img/news_1.png" alt="">
-                            </figure>
-                            <div class="news-item__content">
-                                <a href="#">
+                        <a href="#">
+                            <div class="news-item--inner">
+                                <figure class="news-item__img">
+                                    <img src="img/news_1.png" alt="">
+                                </figure>
+                                <div class="news-item__content">
                                     <div class="news-item__content__title">Probiotics may help battle antibiotic resistance Probiotics may help</div>
-                                </a>
-                                <div class="news-item__content__info">14 June 2018 by <a href="#">Admin</a></div>
+                                    <div class="news-item__content__info">14 June 2018 by <a href="#">Admin</a></div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="news-item col-lg-4 col-md-4 col-xs-col-4 col-xs-12 col-12">
-                        <div class="news-item--inner">
-                            <figure class="news-item__img">
-                                <img src="img/news_2.png" alt="">
-                            </figure>
-                            <div class="news-item__content">
-                                <a href="#"><div class="news-item__content__title">Probiotics may help battle antibiotic resistance Probiotics may help</div></a>
-                                <div class="news-item__content__info">14 June 2018 by <a href="#">Admin</a></div>
+                        <a href="#">
+                            <div class="news-item--inner">
+                                <figure class="news-item__img">
+                                    <img src="img/news_2.png" alt="">
+                                </figure>
+                                <div class="news-item__content">
+                                    <div class="news-item__content__title">Probiotics may help battle antibiotic resistance Probiotics may help</div>
+                                    <div class="news-item__content__info">14 June 2018 by <a href="#">Admin</a></div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="news-item col-lg-4 col-md-4 col-xs-col-4 col-xs-12 col-12">
-                        <div class="news-item--inner">
-                            <figure class="news-item__img">
-                                <img src="img/news_3.png" alt="">
-                            </figure>
-                            <div class="news-item__content">
-                                <a href="#"><div class="news-item__content__title">Probiotics may help battle antibiotic resistance Probiotics may help</div></a>
-                                <div class="news-item__content__info">14 June 2018 by <a href="#">Admin</a></div>
+                        <a href="#">
+                            <div class="news-item--inner">
+                                <figure class="news-item__img">
+                                    <img src="img/news_3.png" alt="">
+                                </figure>
+                                <div class="news-item__content">
+                                    <div class="news-item__content__title">Probiotics may help battle antibiotic resistance Probiotics may help</div>
+                                    <div class="news-item__content__info">14 June 2018 by <a href="#">Admin</a></div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

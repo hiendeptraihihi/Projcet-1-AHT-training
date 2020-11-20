@@ -83,3 +83,7 @@ ul{
     color: var(--main-color);
     cursor: pointer;
 }
+select{
+    appearance: none;
+    background: url('../img/caret-down.png') no-repeat right center;
+}

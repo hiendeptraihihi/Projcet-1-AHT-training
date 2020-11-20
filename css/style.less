@@ -70,6 +70,7 @@
                     border: none;
                 }
                 input{
+                    padding: 0 15px;
                     border: none;
                     height: 24px;
                     display: block;
@@ -528,6 +529,7 @@
                     align-items: center;
                     justify-content: center;
                     a{
+                        text-align: center;
                         display: block;
                         font-size: 14px;
                         font-weight: 600;
@@ -849,4 +851,44 @@
     &__all-right{
         padding-top: 5px;
     }
+}
+.slide{
+    margin: 0 -15px;
+}
+.item{
+    padding: 0 15px;
+}
+.slick-arrow::before{
+    color: #8f8f8f;
+    font-size: 30px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+.slick-prev{
+    top: -75px;
+    right: 50px;
+    left: unset;
+    &::before{
+        content: url('../img/lefy.png');
+    }
+    &:hover{
+        &::before{
+            content: url('../img/lefty.png');
+        }
+    }
+}
+.slick-next{
+    top: -75px;
+    right: 20px;
+    &::before{
+        content: url('../img/righy.png');
+    }
+    &:hover{
+        &::before{
+            content: url('../img/righty.png');
+        }
+    }
+}
+.wrapper{
+    overflow: hidden;
 }

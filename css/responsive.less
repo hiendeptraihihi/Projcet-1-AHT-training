@@ -61,14 +61,13 @@
     }
     .header__bottom{
         .logo{
-            width: 25%;
-            margin-right: 20px;
+            display: none;
             img{
                 width: 100%;
             }
         }
         .main-option{
-            width: 60%;
+            width: 100%;
             &__search{
                 width: 100%;
                 select{
@@ -77,11 +76,52 @@
             }
         }
     }
+    .menu{
+        background-color: #fff;
+        .nav-link{
+            color: #000 !important;
+        }
+    }
     .menu__left{
         display: none;
     }
     .menu__right{
         margin: 0;
+    }
+    .header__bottom{
+        .logo{
+            display: none !important;
+        }
+        .main-option{
+            width: 100%;
+        }
+        .button-panel{
+            display: none !important;
+        }
+    }
+    .menu__right{
+        position: relative;
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        .nav-link{
+            padding: 15px;
+            margin: 0;
+        }
+        .logo-mobile{
+            position: absolute;
+    /* top: 50%; */
+            left: 50%;
+            transform: translate(-50%);
+            display: flex !important; 
+            width: 30%;
+            img{
+                width: 100%;
+            }
+        }
+        .button-panel{
+            display: block !important;
+        }
     }
     .slider{
         .content{
